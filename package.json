@@ -1,0 +1,23 @@
+{
+  "name": "wdio-cucumber-sample",
+  "version": "1.0.0",
+  "description": "WebdriverIO Cucumber Samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./conf/wdio.conf.js"
+  },
+  "author": "Ashwin G",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/browserstack-service": "^6.1.15",
+    "@wdio/cli": "^6.1.15"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^6.1.14",
+    "@wdio/local-runner": "^6.1.14",
+    "@wdio/selenium-standalone-service": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "glob": "^7.1.6"
+  }
+}
